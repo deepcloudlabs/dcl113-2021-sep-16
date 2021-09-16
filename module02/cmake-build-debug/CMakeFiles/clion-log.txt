@@ -1,0 +1,4 @@
+D:\stage\jetbrains\clion-2021.2.1\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" D:\var\workspace\dcl113-2021-sep-16\module02
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/var/workspace/dcl113-2021-sep-16/module02/cmake-build-debug
