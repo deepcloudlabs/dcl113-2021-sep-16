@@ -1,0 +1,11 @@
+D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/CMakeFiles/exercise1.dir
+D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/CMakeFiles/functional_programming_exercises.dir
+D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/CMakeFiles/exercise2.dir
+D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/CMakeFiles/exercise3.dir
+D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/CMakeFiles/exercise4.dir
+D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/CMakeFiles/exercise5.dir
+D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/CMakeFiles/exercise6.dir
+D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/CMakeFiles/exercise7.dir
+D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/CMakeFiles/exercise8.dir
+D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+D:\stage\jetbrains\clion-2021.2.1\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\functional_programming_exercises.dir/objects.a
+D:\opt\mingw64\bin\ar.exe cr CMakeFiles\functional_programming_exercises.dir/objects.a @CMakeFiles\functional_programming_exercises.dir\objects1.rsp
+D:\opt\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\functional_programming_exercises.dir/objects.a -Wl,--no-whole-archive -o functional_programming_exercises.exe -Wl,--out-implib,libfunctional_programming_exercises.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\functional_programming_exercises.dir\linklibs.rsp

@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="functional_programming_exercises"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise1">
+				<Option output="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/exercise1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1"/>
+					<CompileFile command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise1/fast">
+				<Option output="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/exercise1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1/fast"/>
+					<CompileFile command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="functional_programming_exercises">
+				<Option output="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/functional_programming_exercises.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 functional_programming_exercises"/>
+					<CompileFile command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="functional_programming_exercises/fast">
+				<Option output="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/functional_programming_exercises.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 functional_programming_exercises/fast"/>
+					<CompileFile command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise2">
+				<Option output="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/exercise2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise2"/>
+					<CompileFile command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise2/fast">
+				<Option output="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/exercise2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise2/fast"/>
+					<CompileFile command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise3">
+				<Option output="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/exercise3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise3"/>
+					<CompileFile command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise3/fast">
+				<Option output="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/exercise3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise3/fast"/>
+					<CompileFile command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise4">
+				<Option output="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/exercise4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise4"/>
+					<CompileFile command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise4/fast">
+				<Option output="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/exercise4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise4/fast"/>
+					<CompileFile command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise5">
+				<Option output="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/exercise5.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise5"/>
+					<CompileFile command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise5/fast">
+				<Option output="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/exercise5.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise5/fast"/>
+					<CompileFile command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise6">
+				<Option output="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/exercise6.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise6"/>
+					<CompileFile command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise6/fast">
+				<Option output="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/exercise6.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise6/fast"/>
+					<CompileFile command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise7">
+				<Option output="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/exercise7.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise7"/>
+					<CompileFile command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise7/fast">
+				<Option output="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/exercise7.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise7/fast"/>
+					<CompileFile command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise8">
+				<Option output="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/exercise8.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise8"/>
+					<CompileFile command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise8/fast">
+				<Option output="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/exercise8.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise8/fast"/>
+					<CompileFile command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/city.cpp">
+			<Option target="exercise1"/>
+			<Option target="exercise2"/>
+			<Option target="exercise3"/>
+			<Option target="exercise4"/>
+			<Option target="exercise5"/>
+			<Option target="exercise6"/>
+			<Option target="exercise7"/>
+			<Option target="exercise8"/>
+		</Unit>
+		<Unit filename="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/city.h">
+			<Option target="exercise1"/>
+			<Option target="exercise2"/>
+			<Option target="exercise3"/>
+			<Option target="exercise4"/>
+			<Option target="exercise5"/>
+			<Option target="exercise6"/>
+			<Option target="exercise7"/>
+			<Option target="exercise8"/>
+		</Unit>
+		<Unit filename="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/country.cpp">
+			<Option target="exercise1"/>
+			<Option target="exercise2"/>
+			<Option target="exercise3"/>
+			<Option target="exercise4"/>
+			<Option target="exercise5"/>
+			<Option target="exercise6"/>
+			<Option target="exercise7"/>
+			<Option target="exercise8"/>
+		</Unit>
+		<Unit filename="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/country.h">
+			<Option target="exercise1"/>
+			<Option target="exercise2"/>
+			<Option target="exercise3"/>
+			<Option target="exercise4"/>
+			<Option target="exercise5"/>
+			<Option target="exercise6"/>
+			<Option target="exercise7"/>
+			<Option target="exercise8"/>
+		</Unit>
+		<Unit filename="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/exercise1.cpp">
+			<Option target="exercise1"/>
+		</Unit>
+		<Unit filename="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/exercise2.cpp">
+			<Option target="exercise2"/>
+		</Unit>
+		<Unit filename="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/exercise3.cpp">
+			<Option target="exercise3"/>
+		</Unit>
+		<Unit filename="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/exercise4.cpp">
+			<Option target="exercise4"/>
+		</Unit>
+		<Unit filename="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/exercise5.cpp">
+			<Option target="exercise5"/>
+		</Unit>
+		<Unit filename="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/exercise6.cpp">
+			<Option target="exercise6"/>
+		</Unit>
+		<Unit filename="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/exercise7.cpp">
+			<Option target="exercise7"/>
+		</Unit>
+		<Unit filename="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/exercise8.cpp">
+			<Option target="exercise8"/>
+		</Unit>
+		<Unit filename="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/main.cpp">
+			<Option target="functional_programming_exercises"/>
+		</Unit>
+		<Unit filename="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/world-util.cpp">
+			<Option target="exercise1"/>
+			<Option target="exercise2"/>
+			<Option target="exercise3"/>
+			<Option target="exercise4"/>
+			<Option target="exercise5"/>
+			<Option target="exercise6"/>
+			<Option target="exercise7"/>
+			<Option target="exercise8"/>
+		</Unit>
+		<Unit filename="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/world-util.h">
+			<Option target="exercise1"/>
+			<Option target="exercise2"/>
+			<Option target="exercise3"/>
+			<Option target="exercise4"/>
+			<Option target="exercise5"/>
+			<Option target="exercise6"/>
+			<Option target="exercise7"/>
+			<Option target="exercise8"/>
+		</Unit>
+		<Unit filename="D:/var/workspace/dcl113-2021-sep-16/functional-programming-exercises/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
