@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/var/workspace/dcl113-2021-sep-16/module04/exercise01.cpp
+iostream
+-
+algorithm
+-
+numeric
+-
+vector
+-
+functional
+-
+person.h
+D:/var/workspace/dcl113-2021-sep-16/module04/person.h
+
+D:/var/workspace/dcl113-2021-sep-16/module04/person.h
+string
+-
+

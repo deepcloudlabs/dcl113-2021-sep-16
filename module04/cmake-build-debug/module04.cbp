@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="module04"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/var/workspace/dcl113-2021-sep-16/module04/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="module04">
+				<Option output="D:/var/workspace/dcl113-2021-sep-16/module04/cmake-build-debug/module04.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/var/workspace/dcl113-2021-sep-16/module04/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 module04"/>
+					<CompileFile command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="module04/fast">
+				<Option output="D:/var/workspace/dcl113-2021-sep-16/module04/cmake-build-debug/module04.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/var/workspace/dcl113-2021-sep-16/module04/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 module04/fast"/>
+					<CompileFile command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/var/workspace/dcl113-2021-sep-16/module04/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise01">
+				<Option output="D:/var/workspace/dcl113-2021-sep-16/module04/cmake-build-debug/exercise01.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/var/workspace/dcl113-2021-sep-16/module04/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise01"/>
+					<CompileFile command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise01/fast">
+				<Option output="D:/var/workspace/dcl113-2021-sep-16/module04/cmake-build-debug/exercise01.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/var/workspace/dcl113-2021-sep-16/module04/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/x86_64-w64-mingw32"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../include"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/include-fixed"/>
+					<Add directory="d:\opt\mingw64\bin\../lib/gcc/x86_64-w64-mingw32/10.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise01/fast"/>
+					<CompileFile command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/var/workspace/dcl113-2021-sep-16/module04/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/opt/mingw64/bin/mingw32-make.exe -f &quot;D:/var/workspace/dcl113-2021-sep-16/module04/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/var/workspace/dcl113-2021-sep-16/module04/exercise01.cpp">
+			<Option target="exercise01"/>
+		</Unit>
+		<Unit filename="D:/var/workspace/dcl113-2021-sep-16/module04/main.cpp">
+			<Option target="module04"/>
+		</Unit>
+		<Unit filename="D:/var/workspace/dcl113-2021-sep-16/module04/person.h">
+			<Option target="exercise01"/>
+		</Unit>
+		<Unit filename="D:/var/workspace/dcl113-2021-sep-16/module04/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
