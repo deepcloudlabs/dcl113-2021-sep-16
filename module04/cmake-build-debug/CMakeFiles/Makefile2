@@ -62,6 +62,7 @@ CMAKE_BINARY_DIR = D:\var\workspace\dcl113-2021-sep-16\module04\cmake-build-debu
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/exercise02.dir/all
 all: CMakeFiles/module04.dir/all
 all: CMakeFiles/exercise01.dir/all
 .PHONY : all
@@ -71,9 +72,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/exercise02.dir/clean
 clean: CMakeFiles/module04.dir/clean
 clean: CMakeFiles/exercise01.dir/clean
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/exercise02.dir
+
+# All Build rule for target.
+CMakeFiles/exercise02.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise02.dir\build.make CMakeFiles/exercise02.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise02.dir\build.make CMakeFiles/exercise02.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\var\workspace\dcl113-2021-sep-16\module04\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target exercise02"
+.PHONY : CMakeFiles/exercise02.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/exercise02.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\var\workspace\dcl113-2021-sep-16\module04\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/exercise02.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\var\workspace\dcl113-2021-sep-16\module04\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/exercise02.dir/rule
+
+# Convenience name for target.
+exercise02: CMakeFiles/exercise02.dir/rule
+.PHONY : exercise02
+
+# clean rule for target.
+CMakeFiles/exercise02.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise02.dir\build.make CMakeFiles/exercise02.dir/clean
+.PHONY : CMakeFiles/exercise02.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/module04.dir
@@ -82,7 +110,7 @@ clean: CMakeFiles/exercise01.dir/clean
 CMakeFiles/module04.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\module04.dir\build.make CMakeFiles/module04.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\module04.dir\build.make CMakeFiles/module04.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\var\workspace\dcl113-2021-sep-16\module04\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target module04"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\var\workspace\dcl113-2021-sep-16\module04\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target module04"
 .PHONY : CMakeFiles/module04.dir/all
 
 # Build rule for subdir invocation for target.

@@ -128,6 +128,19 @@ module03/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\module03.dir\build.make CMakeFiles/module03.dir/build
 .PHONY : module03/fast
 
+#=============================================================================
+# Target rules for targets named summary
+
+# Build rule for target.
+summary: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 summary
+.PHONY : summary
+
+# fast build rule for target.
+summary/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\summary.dir\build.make CMakeFiles/summary.dir/build
+.PHONY : summary/fast
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -152,6 +165,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\module03.dir\build.make CMakeFiles/module03.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+summary.obj: summary.cpp.obj
+.PHONY : summary.obj
+
+# target to build an object file
+summary.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\summary.dir\build.make CMakeFiles/summary.dir/summary.cpp.obj
+.PHONY : summary.cpp.obj
+
+summary.i: summary.cpp.i
+.PHONY : summary.i
+
+# target to preprocess a source file
+summary.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\summary.dir\build.make CMakeFiles/summary.dir/summary.cpp.i
+.PHONY : summary.cpp.i
+
+summary.s: summary.cpp.s
+.PHONY : summary.s
+
+# target to generate assembly for a file
+summary.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\summary.dir\build.make CMakeFiles/summary.dir/summary.cpp.s
+.PHONY : summary.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -161,9 +198,13 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... module03
+	@echo ... summary
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... summary.obj
+	@echo ... summary.i
+	@echo ... summary.s
 .PHONY : help
 
 

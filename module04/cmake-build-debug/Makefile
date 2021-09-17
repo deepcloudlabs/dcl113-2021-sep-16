@@ -116,6 +116,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named exercise02
+
+# Build rule for target.
+exercise02: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 exercise02
+.PHONY : exercise02
+
+# fast build rule for target.
+exercise02/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise02.dir\build.make CMakeFiles/exercise02.dir/build
+.PHONY : exercise02/fast
+
+#=============================================================================
 # Target rules for targets named module04
 
 # Build rule for target.
@@ -165,6 +178,30 @@ exercise01.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise01.dir\build.make CMakeFiles/exercise01.dir/exercise01.cpp.s
 .PHONY : exercise01.cpp.s
 
+exercise02.obj: exercise02.cpp.obj
+.PHONY : exercise02.obj
+
+# target to build an object file
+exercise02.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise02.dir\build.make CMakeFiles/exercise02.dir/exercise02.cpp.obj
+.PHONY : exercise02.cpp.obj
+
+exercise02.i: exercise02.cpp.i
+.PHONY : exercise02.i
+
+# target to preprocess a source file
+exercise02.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise02.dir\build.make CMakeFiles/exercise02.dir/exercise02.cpp.i
+.PHONY : exercise02.cpp.i
+
+exercise02.s: exercise02.cpp.s
+.PHONY : exercise02.s
+
+# target to generate assembly for a file
+exercise02.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\exercise02.dir\build.make CMakeFiles/exercise02.dir/exercise02.cpp.s
+.PHONY : exercise02.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -198,10 +235,14 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... exercise01
+	@echo ... exercise02
 	@echo ... module04
 	@echo ... exercise01.obj
 	@echo ... exercise01.i
 	@echo ... exercise01.s
+	@echo ... exercise02.obj
+	@echo ... exercise02.i
+	@echo ... exercise02.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
